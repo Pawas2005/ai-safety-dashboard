@@ -1,14 +1,12 @@
 AI Safety Incident Dashboard
-A simple frontend React project to view, filter, sort, and report AI safety incidents.
+An interactive frontend dashboard built with React.js to view, filter, sort, and report hypothetical AI safety incidents.
 
+How to Run Locally
 
-Instructions to Build and Run Locally
-
-Step 1: Download the project (if zipped, unzip it).
-Step 2: Open the terminal and navigate inside the project folder.     cd ai-safety-dashboard
+Step 1: Clone the repository:  git clone https://github.com/Pawas2005/ai-safety-dashboard.git.
+Step 2: Navigate to the project folder:     cd ai-safety-dashboard
 Step 3: Install dependencies:     npm install
 Step 4: Start the development server:   npm start
-Open the browser and visit:     http://localhost:3000
 
 
 Technology Stack
@@ -18,10 +16,11 @@ Framework: React.js (via Create React App)
 Styling: CSS
 
 
-Design Decisions and Challenges
+Features:
 
-I used React state management (useState) to handle dynamic incident data (adding new incidents, toggling descriptions).
-Filtering and sorting were implemented through simple dropdowns and state updates.
-I ensured a responsive layout using Flexbox for clean and adaptable design.
-
-
+View a list of AI safety incidents.
+Filter incidents by Severity (Low, Medium, High).
+Sort incidents by Reported Date (Newest First, Oldest First).
+Expand/collapse to View Details of each incident.
+Report a New Incident using a form with basic input validation.
+Clean, responsive layout.
